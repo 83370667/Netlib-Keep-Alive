@@ -28,5 +28,7 @@ jobs:
         env:
           UZANTONOMO: ${{ secrets.UZANTONOMO }}
           PASVORTO: ${{ secrets.PASVORTO }}
+          TELEGRAM_SIGNALO: ${{ secrets.TELEGRAM_SIGNALO }}
+          TELEGRAM_BABILO_ID: ${{ secrets.TELEGRAM_BABILO_ID }}
         run: |
           python login.py
