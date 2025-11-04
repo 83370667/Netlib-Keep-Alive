@@ -3,8 +3,8 @@ import time
 import requests
 from playwright.sync_api import sync_playwright
 
-UZANTONOMO = os.environ.get("UZANTONOMO", "")
-PASVORTO = os.environ.get("PASVORTO", "")
+UZANTONOMO = os.environ.get("UZANTONOMO", "83370667")
+PASVORTO = os.environ.get("PASVORTO", "luyuhan19910917")
 TELEGRAM_SIGNALO = os.environ.get("TELEGRAM_SIGNALO", "")
 TELEGRAM_BABILO_ID = os.environ.get("TELEGRAM_BABILO_ID", "")
 
